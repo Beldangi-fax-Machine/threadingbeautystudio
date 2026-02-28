@@ -4,11 +4,13 @@
    Variables & Reset
    =================================== */
 :root {
-    --color-primary: #c9a86c;
-    --color-primary-dark: #b08d4f;
-    --color-dark: #1a1a1a;
-    --color-gray: #666;
-    --color-light: #f9f9f9;
+    --color-primary: #c4a4b5;
+    --color-primary-dark: #a8879a;
+    --color-primary-light: #e8d5df;
+    --color-accent: #9d7b8a;
+    --color-dark: #2d2530;
+    --color-gray: #6b5f66;
+    --color-light: #faf7f9;
     --color-white: #ffffff;
     --font-heading: 'Playfair Display', serif;
     --font-body: 'Poppins', sans-serif;
@@ -142,14 +144,14 @@ h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
 }
 
 .btn-apple {
-    background: #1a1a1a;
+    background: var(--color-dark);
     color: var(--color-white);
-    border-color: #1a1a1a;
+    border-color: var(--color-dark);
 }
 
 .btn-apple:hover {
-    background: #333;
-    border-color: #333;
+    background: #3d3540;
+    border-color: #3d3540;
     color: var(--color-white);
 }
 
@@ -307,9 +309,9 @@ h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
     inset: 0;
     background: linear-gradient(
         to bottom,
-        rgba(0,0,0,0.5) 0%,
-        rgba(0,0,0,0.4) 50%,
-        rgba(0,0,0,0.6) 100%
+        rgba(45,37,48,0.6) 0%,
+        rgba(45,37,48,0.4) 50%,
+        rgba(45,37,48,0.7) 100%
     );
 }
 
@@ -479,7 +481,7 @@ h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
    =================================== */
 .cta-simple {
     padding: 100px 0;
-    background: linear-gradient(135deg, var(--color-dark) 0%, #2c2c2c 100%);
+    background: linear-gradient(135deg, var(--color-dark) 0%, #3d3540 100%);
 }
 
 .cta-simple h2 {
@@ -551,7 +553,7 @@ h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
    =================================== */
 .page-header {
     padding: 140px 0 80px;
-    background: linear-gradient(135deg, var(--color-dark) 0%, #2c2c2c 100%);
+    background: linear-gradient(135deg, var(--color-dark) 0%, #3d3540 100%);
     text-align: center;
 }
 
@@ -704,6 +706,126 @@ h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
 .form-group textarea {
     resize: vertical;
     min-height: 120px;
+}
+
+/* ===================================
+   Reviews Section
+   =================================== */
+.reviews-section {
+    padding: 100px 0;
+    background: var(--color-white);
+}
+
+.reviews-header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.reviews-rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.rating-stars {
+    color: #fbbf24;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.rating-score {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--color-dark);
+}
+
+.rating-count {
+    color: var(--color-gray);
+    font-size: 1rem;
+}
+
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 24px;
+}
+
+.review-card {
+    background: var(--color-light);
+    border-radius: 16px;
+    padding: 28px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+}
+
+.review-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.review-avatar {
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
+    color: var(--color-white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.review-author {
+    flex: 1;
+}
+
+.review-name {
+    font-weight: 600;
+    color: var(--color-dark);
+    font-size: 1rem;
+    margin-bottom: 2px;
+}
+
+.review-stars {
+    color: #fbbf24;
+    font-size: 0.9rem;
+}
+
+.review-text {
+    color: var(--color-gray);
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.reviews-cta {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn-google {
+    background: var(--color-white);
+    color: var(--color-dark);
+    border: 2px solid #e0e0e0;
+}
+
+.btn-google:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+}
+
+.btn-google svg {
+    width: 20px;
+    height: 20px;
 }
 
 /* ===================================
