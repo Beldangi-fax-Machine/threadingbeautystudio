@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Threading Beauty Studio Gallery - View our work and client transformations in Winooski and Burlington, VT.">
+    <title>Gallery | Threading Beauty Studio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Threading Beauty</span>
+                <span class="logo-sub">Studio</span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="tel:8024308308" class="nav-link nav-cta">Call Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-overlay"></div>
+        <div class="container">
+            <div class="page-header-content">
+                <h1 class="page-title animate-fade-up">Our Gallery</h1>
+                <p class="page-subtitle animate-fade-up delay-1">See the results of our expert threading services</p>
+                <nav class="breadcrumb animate-fade-up delay-2">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Gallery</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Introduction -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header text-center animate-on-scroll">
+                <span class="section-tag">Our Work</span>
+                <h2 class="section-title">Client Transformations</h2>
+                <p class="section-subtitle">Browse through our gallery to see the beautiful results we achieve for our clients every day.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Filter -->
+    <section class="gallery-section section section-gray">
+        <div class="container">
+            <div class="gallery-filter animate-on-scroll">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="eyebrows">Eyebrows</button>
+                <button class="filter-btn" data-filter="full-face">Full Face</button>
+                <button class="filter-btn" data-filter="reviews">Reviews</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+                <!-- Row 1 -->
+                <div class="gallery-item animate-on-scroll" data-category="eyebrows">
+                    <div class="gallery-image">
+                        <div class="image-placeholder gallery-placeholder">
+                            <span>Eyebrow Threading<br>Before & After</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <span class="gallery-title">Eyebrow Threading</span>
+                            <span class="gallery-category">Perfect Arch</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll" data-category="eyebrows">
+                    <div class="gallery-image">
+                        <div class="image-placeholder gallery-placeholder">
+                            <span>Brow Shaping<br>Transformation</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <span class="gallery-title">Brow Shaping</span>
+                            <span class="gallery-category">Natural Look</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll" data-category="full-face">
+                    <div class="gallery-image">
+                        <div class="image-placeholder gallery-placeholder">
+                            <span>Full Face Threading<br>Results</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <span class="gallery-title">Full Face</span>
+                            <span class="gallery-category">Complete Treatment</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Row 2 -->
+                <div class="gallery-item animate-on-scroll" data-category="reviews">
+                    <div class="gallery-image">
+                        <div class="image-placeholder gallery-placeholder">
+                            <span>Client Review<br>Photo</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <span class="gallery-title">Happy Client</span>
+                            <span class="gallery-category">5-Star Review</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll" data-category="eyebrows">
+                    <div class="gallery-image">
+                        <div class="image-placeholder gallery-placeholder">
+                            <span>Eyebrow Threading<br>Detail Shot</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <span class="gallery-title">Precision Threading</span>
+                            <span class="gallery-category">Clean Lines</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll" data-category="full-face">
+                    <div class="gallery-image">
+                        <div class="image-placeholder gallery-placeholder">
+                            <span>Full Face<br>Before & After</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <span class="gallery-title">Full Face Threading</span>
+                            <span class="gallery-category">Smooth Results</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Row 3 -->
+                <div class="gallery-item animate-on-scroll" data-category="eyebrows">
+                    <div class="gallery-image">
+                        <div class="image-placeholder gallery-placeholder">
+                            <span>Defined Brows<br>Result</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <span class="gallery-title">Defined Brows</span>
+                            <span class="gallery-category">Bold Look</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll" data-category="reviews">
+                    <div class="gallery-image">
+                        <div class="image-placeholder gallery-placeholder">
+                            <span>Customer<br>Testimonial</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <span class="gallery-title">Satisfied Client</span>
+                            <span class="gallery-category">Testimonial</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll" data-category="eyebrows">
+                    <div class="gallery-image">
+                        <div class="image-placeholder gallery-placeholder">
+                            <span>Natural Brow<br>Shaping</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <span class="gallery-title">Natural Shaping</span>
+                            <span class="gallery-category">Subtle Enhancement</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Row 4 -->
+                <div class="gallery-item animate-on-scroll" data-category="reviews">
+                    <div class="gallery-image">
+                        <div class="image-placeholder gallery-placeholder">
+                            <span>Client<br>Review Photo</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <span class="gallery-title">Client Review</span>
+                            <span class="gallery-category">Burlington Location</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll" data-category="full-face">
+                    <div class="gallery-image">
+                        <div class="image-placeholder gallery-placeholder">
+                            <span>Facial Threading<br>Service</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <span class="gallery-title">Facial Threading</span>
+                            <span class="gallery-category">Upper Lip & Chin</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll" data-category="eyebrows">
+                    <div class="gallery-image">
+                        <div class="image-placeholder gallery-placeholder">
+                            <span>Eyebrow<br>Transformation</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <span class="gallery-title">Brow Transformation</span>
+                            <span class="gallery-category">Amazing Results</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery Note -->
+            <div class="gallery-note text-center animate-on-scroll">
+                <p>These are placeholder images. Add your own before and after photos to the <code>images/gallery</code> folder and review photos to the <code>images/reviews</code> folder.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Feed Section -->
+    <section class="instagram-section section">
+        <div class="container">
+            <div class="section-header text-center animate-on-scroll">
+                <span class="section-tag">Follow Us</span>
+                <h2 class="section-title">@threadingbeautystudio</h2>
+                <p class="section-subtitle">Follow us on Instagram for daily inspiration and behind-the-scenes looks</p>
+            </div>
+            <div class="instagram-grid">
+                <div class="instagram-item animate-on-scroll">
+                    <div class="image-placeholder instagram-placeholder">
+                        <span>Instagram Post</span>
+                    </div>
+                </div>
+                <div class="instagram-item animate-on-scroll">
+                    <div class="image-placeholder instagram-placeholder">
+                        <span>Instagram Post</span>
+                    </div>
+                </div>
+                <div class="instagram-item animate-on-scroll">
+                    <div class="image-placeholder instagram-placeholder">
+                        <span>Instagram Post</span>
+                    </div>
+                </div>
+                <div class="instagram-item animate-on-scroll">
+                    <div class="image-placeholder instagram-placeholder">
+                        <span>Instagram Post</span>
+                    </div>
+                </div>
+                <div class="instagram-item animate-on-scroll">
+                    <div class="image-placeholder instagram-placeholder">
+                        <span>Instagram Post</span>
+                    </div>
+                </div>
+                <div class="instagram-item animate-on-scroll">
+                    <div class="image-placeholder instagram-placeholder">
+                        <span>Instagram Post</span>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-primary" target="_blank">Follow Us on Instagram</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta section">
+        <div class="cta-overlay"></div>
+        <div class="container">
+            <div class="cta-content text-center animate-on-scroll">
+                <h2 class="cta-title">Ready for Your Transformation?</h2>
+                <p class="cta-text">Book your appointment today and join our gallery of satisfied clients.</p>
+                <div class="cta-buttons">
+                    <a href="tel:8024308308" class="btn btn-white">Call (802) 430-8308</a>
+                    <a href="contact.html" class="btn btn-outline-white">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <span class="logo-text">Threading Beauty</span>
+                        <span class="logo-sub">Studio</span>
+                    </a>
+                    <p class="footer-desc">Professional eyebrow threading and beauty services in Vermont. Enhancing your natural beauty with precision and care.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" fill="none" stroke="currentColor" stroke-width="2"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-title">Services</h4>
+                    <ul>
+                        <li><a href="services.html">Eyebrow Threading</a></li>
+                        <li><a href="services.html">Full Face Threading</a></li>
+                        <li><a href="services.html">Upper Lip Threading</a></li>
+                        <li><a href="services.html">Eyebrow Tinting</a></li>
+                        <li><a href="services.html">Facial Treatments</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 class="footer-title">Contact Us</h4>
+                    <div class="contact-item">
+                        <span class="contact-icon">&#128205;</span>
+                        <div>
+                            <p>145 E Allen St, Winooski, VT 05404</p>
+                            <p>1 Intervale Ave, Burlington, VT 05401</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">&#128222;</span>
+                        <a href="tel:8024308308">(802) 430-8308</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Threading Beauty Studio / DOMA THAPA LTD. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

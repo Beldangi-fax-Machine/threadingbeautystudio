@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Threading Beauty Studio - Visit us in Winooski or Burlington, VT. Call (802) 430-8308 for appointments.">
+    <title>Contact Us | Threading Beauty Studio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Threading Beauty</span>
+                <span class="logo-sub">Studio</span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                <li><a href="tel:8024308308" class="nav-link nav-cta">Call Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-overlay"></div>
+        <div class="container">
+            <div class="page-header-content">
+                <h1 class="page-title animate-fade-up">Contact Us</h1>
+                <p class="page-subtitle animate-fade-up delay-1">Get in touch with us or visit one of our locations</p>
+                <nav class="breadcrumb animate-fade-up delay-2">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Contact</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="contact-info section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper animate-on-scroll">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Send Us a Message</h2>
+                    <p class="contact-intro">Have a question or want to book an appointment? Fill out the form below and we'll get back to you as soon as possible.</p>
+
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your name">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="Enter your email">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Enter your phone">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="eyebrow-threading">Eyebrow Threading</option>
+                                <option value="full-face-threading">Full Face Threading</option>
+                                <option value="upper-lip-threading">Upper Lip Threading</option>
+                                <option value="chin-threading">Chin Threading</option>
+                                <option value="eyebrow-tinting">Eyebrow Tinting</option>
+                                <option value="henna-brows">Henna Brows</option>
+                                <option value="facial-treatment">Facial Treatment</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="location">Preferred Location</label>
+                            <select id="location" name="location">
+                                <option value="">Select a location</option>
+                                <option value="winooski">Winooski - 145 E Allen St</option>
+                                <option value="burlington">Burlington - 1 Intervale Ave</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="How can we help you?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                    <div class="form-success" id="formSuccess">
+                        <div class="success-icon">&#10003;</div>
+                        <h3>Thank You!</h3>
+                        <p>Your message has been sent successfully. We'll get back to you soon!</p>
+                    </div>
+                </div>
+
+                <!-- Contact Details -->
+                <div class="contact-details animate-on-scroll">
+                    <div class="contact-card">
+                        <div class="contact-card-icon">&#128222;</div>
+                        <h3>Call Us</h3>
+                        <p>Ready to book? Give us a call!</p>
+                        <a href="tel:8024308308" class="contact-link">(802) 430-8308</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-card-icon">&#128337;</div>
+                        <h3>Business Hours</h3>
+                        <div class="hours-list">
+                            <div class="hours-item">
+                                <span>Monday - Saturday</span>
+                                <span>10:00 AM - 7:00 PM</span>
+                            </div>
+                            <div class="hours-item">
+                                <span>Sunday</span>
+                                <span>11:00 AM - 5:00 PM</span>
+                            </div>
+                        </div>
+                        <p class="hours-note">Walk-ins welcome! Appointments recommended for weekends.</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-card-icon">&#128231;</div>
+                        <h3>Follow Us</h3>
+                        <p>Stay updated with our latest work!</p>
+                        <div class="social-links">
+                            <a href="#" class="social-btn" aria-label="Facebook">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                                Facebook
+                            </a>
+                            <a href="#" class="social-btn" aria-label="Instagram">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+                                Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Locations Section -->
+    <section class="contact-locations section section-gray">
+        <div class="container">
+            <div class="section-header text-center animate-on-scroll">
+                <span class="section-tag">Visit Us</span>
+                <h2 class="section-title">Our Locations</h2>
+                <p class="section-subtitle">Two convenient locations to serve you better</p>
+            </div>
+            <div class="locations-detailed">
+                <!-- Winooski Location -->
+                <div class="location-detailed animate-on-scroll">
+                    <div class="location-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2843.8!2d-73.1857!3d44.4917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDTCsDI5JzMwLjEiTiA3M8KwMTEnMDguNSJX!5e0!3m2!1sen!2sus!4v1234567890"
+                            width="100%"
+                            height="300"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Winooski Location Map">
+                        </iframe>
+                        <div class="map-placeholder">
+                            <span>Google Map - Winooski Location</span>
+                            <p>145 E Allen St, Winooski, VT 05404</p>
+                        </div>
+                    </div>
+                    <div class="location-info">
+                        <h3 class="location-title">Winooski Location</h3>
+                        <p class="location-business">DOMA THAPA LTD</p>
+                        <div class="location-details-list">
+                            <div class="detail-row">
+                                <span class="detail-icon">&#128205;</span>
+                                <div>
+                                    <strong>Address</strong>
+                                    <p>145 E Allen St<br>Winooski, VT 05404</p>
+                                </div>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-icon">&#128222;</span>
+                                <div>
+                                    <strong>Phone</strong>
+                                    <p><a href="tel:8024308308">(802) 430-8308</a></p>
+                                </div>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-icon">&#128337;</span>
+                                <div>
+                                    <strong>Hours</strong>
+                                    <p>Mon-Sat: 10AM-7PM<br>Sun: 11AM-5PM</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://maps.google.com/?q=145+E+Allen+St,+Winooski,+VT+05404" target="_blank" class="btn btn-primary">Get Directions</a>
+                    </div>
+                </div>
+
+                <!-- Burlington Location -->
+                <div class="location-detailed reverse animate-on-scroll">
+                    <div class="location-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2844.5!2d-73.2120!3d44.4780!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDTCsDI4JzQwLjgiTiA3M8KwMTInNDMuMiJX!5e0!3m2!1sen!2sus!4v1234567890"
+                            width="100%"
+                            height="300"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Burlington Location Map">
+                        </iframe>
+                        <div class="map-placeholder">
+                            <span>Google Map - Burlington Location</span>
+                            <p>1 Intervale Ave, Burlington, VT 05401</p>
+                        </div>
+                    </div>
+                    <div class="location-info">
+                        <h3 class="location-title">Burlington Location</h3>
+                        <p class="location-business">Threading Beauty Studio</p>
+                        <div class="location-details-list">
+                            <div class="detail-row">
+                                <span class="detail-icon">&#128205;</span>
+                                <div>
+                                    <strong>Address</strong>
+                                    <p>1 Intervale Ave<br>Burlington, VT 05401</p>
+                                </div>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-icon">&#128222;</span>
+                                <div>
+                                    <strong>Phone</strong>
+                                    <p><a href="tel:8024308308">(802) 430-8308</a></p>
+                                </div>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-icon">&#128337;</span>
+                                <div>
+                                    <strong>Hours</strong>
+                                    <p>Mon-Sat: 10AM-7PM<br>Sun: 11AM-5PM</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://maps.google.com/?q=1+Intervale+Ave,+Burlington,+VT+05401" target="_blank" class="btn btn-primary">Get Directions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq section">
+        <div class="container">
+            <div class="section-header text-center animate-on-scroll">
+                <span class="section-tag">FAQ</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item animate-on-scroll">
+                    <h4 class="faq-question">Do I need an appointment?</h4>
+                    <p class="faq-answer">Walk-ins are always welcome! However, we recommend calling ahead on weekends or if you have a specific time in mind to ensure minimal wait times.</p>
+                </div>
+                <div class="faq-item animate-on-scroll">
+                    <h4 class="faq-question">How long does eyebrow threading take?</h4>
+                    <p class="faq-answer">Eyebrow threading typically takes about 10-15 minutes, depending on the amount of shaping required.</p>
+                </div>
+                <div class="faq-item animate-on-scroll">
+                    <h4 class="faq-question">Is threading painful?</h4>
+                    <p class="faq-answer">Most clients experience only minor discomfort. Threading is generally less painful than waxing and becomes more comfortable with regular visits.</p>
+                </div>
+                <div class="faq-item animate-on-scroll">
+                    <h4 class="faq-question">How long do results last?</h4>
+                    <p class="faq-answer">Threading results typically last 2-4 weeks, depending on your individual hair growth cycle.</p>
+                </div>
+                <div class="faq-item animate-on-scroll">
+                    <h4 class="faq-question">What payment methods do you accept?</h4>
+                    <p class="faq-answer">We accept cash, credit cards, and debit cards at both locations.</p>
+                </div>
+                <div class="faq-item animate-on-scroll">
+                    <h4 class="faq-question">Can I get threading if I have sensitive skin?</h4>
+                    <p class="faq-answer">Yes! Threading is great for sensitive skin because it doesn't use chemicals or hot wax. Let your technician know about any skin sensitivities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta section">
+        <div class="cta-overlay"></div>
+        <div class="container">
+            <div class="cta-content text-center animate-on-scroll">
+                <h2 class="cta-title">Ready to Look Your Best?</h2>
+                <p class="cta-text">Call us now or stop by one of our locations. Walk-ins welcome!</p>
+                <div class="cta-buttons">
+                    <a href="tel:8024308308" class="btn btn-white">Call (802) 430-8308</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <span class="logo-text">Threading Beauty</span>
+                        <span class="logo-sub">Studio</span>
+                    </a>
+                    <p class="footer-desc">Professional eyebrow threading and beauty services in Vermont. Enhancing your natural beauty with precision and care.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" fill="none" stroke="currentColor" stroke-width="2"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-title">Services</h4>
+                    <ul>
+                        <li><a href="services.html">Eyebrow Threading</a></li>
+                        <li><a href="services.html">Full Face Threading</a></li>
+                        <li><a href="services.html">Upper Lip Threading</a></li>
+                        <li><a href="services.html">Eyebrow Tinting</a></li>
+                        <li><a href="services.html">Facial Treatments</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 class="footer-title">Contact Us</h4>
+                    <div class="contact-item">
+                        <span class="contact-icon">&#128205;</span>
+                        <div>
+                            <p>145 E Allen St, Winooski, VT 05404</p>
+                            <p>1 Intervale Ave, Burlington, VT 05401</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">&#128222;</span>
+                        <a href="tel:8024308308">(802) 430-8308</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Threading Beauty Studio / DOMA THAPA LTD. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
